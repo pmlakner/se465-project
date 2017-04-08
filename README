@@ -1,0 +1,18 @@
+ECE453/SE465/CS447/ECE653/CS647
+Project 
+
+Automated static bug detection tool which predicts bugs based on likelihood that functions are supposed to be called together. This project also contains an analysis on the effectiveness of this method, as well as using the static code analysis tool Coverity to resolve bugs. 
+
+- Project outline: proj.pdf
+
+- Code for our detection tool is under pi/partA. pi/partC extends partA by expanding on nested method calls. 
+
+- Report and analysis: proj_sub.pdf
+
+
+How to run tests: (Must be run on linux, Mac has different behaviour)
+
+To run all tests together, execute "verify.sh". Logs of all output can be found in /tmp with names "testing-<your usename>-pi-<time of log>.log".
+clean.sh runs "make clean" in all tests directories, which removes temporary files created by verify.sh.
+To generate the output for one test, run "make" in the test's directory. Your output should be identical to the "gold" file. Your output should be passed through "sort" before "diff"ing with the "gold" file, i.e. cat <your output> | sort | diff - gold_x_xx
+

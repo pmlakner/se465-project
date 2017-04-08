@@ -1,0 +1,12 @@
+/usr/local/cov-analysis-linux64-8.7.1/bin/cov-analyze --dir /home/armcburn/coverity-idirs/g47_myproject --disable-webapp-security --strip-path /home/armcburn/se465-project/pi/partA --all --enable-fb 
+Analysis summary report:
+------------------------
+Files analyzed                 : 49
+Total LoC input to cov-analyze : 70033
+Functions analyzed             : 506
+Classes/structs analyzed       : 163
+Paths analyzed                 : 1249
+Time taken by analysis         : 00:00:07
+Defect occurrences found       : 11 Total
+                                  1 STREAM_FORMAT_STATE
+                                 10 TAINTED_SCALAR

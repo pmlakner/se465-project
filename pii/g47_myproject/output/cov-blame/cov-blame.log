@@ -1,0 +1,24 @@
+[LOG] run: /usr/local/cov-analysis-linux64-8.7.1/bin/cov-format-errors --dir /home/armcburn/coverity-idirs/g47_myproject --json-output-v6 /home/armcburn/coverity-idirs/g47_myproject/output/cov-blame/errors.json --outputdir /home/armcburn/coverity-idirs/g47_myproject/output
+[LOG] /usr/local/cov-analysis-linux64-8.7.1/bin/cov-format-errors exits successfully.
+[INFO] Computing likely owner for 10165 [f4717de53628e00bda2764b786890294]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10165 [f4717de53628e00bda2764b786890294]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10165 [f4717de53628e00bda2764b786890294]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10165 [f4717de53628e00bda2764b786890294]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10165 [f4717de53628e00bda2764b786890294]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10165 [f4717de53628e00bda2764b786890294]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10165 [f4717de53628e00bda2764b786890294]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10165 [f4717de53628e00bda2764b786890294]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10165 [f4717de53628e00bda2764b786890294]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10165 [f4717de53628e00bda2764b786890294]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10164 [5046f704ac0d3ca77c0ccc4e0d4c2edf]:
+[INFO] 	default_component_owner: none

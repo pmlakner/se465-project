@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+
+<metrics>
+    <metric>
+        <name>time</name>
+        <value>33</value>
+    </metric>
+    <metric>
+        <name>args</name>
+        <value>/usr/local/cov-analysis-linux64-8.7.1/bin/cov-build --coverity-response-file=/home/armcburn/coverity-idirs/g47_myproject/desktop/cov-build.rsp</value>
+    </metric>
+    <metric>
+        <name>host</name>
+        <value>ecelinux2.uwaterloo.ca</value>
+    </metric>
+    <metric>
+        <name>short-platform</name>
+        <value>linux64</value>
+    </metric>
+    <metric>
+        <name>platform</name>
+        <value>Linux 3.10.0-514.10.2.el7.x86_64 x86_64</value>
+    </metric>
+    <metric>
+        <name>ident</name>
+        <value>8.7.1 (build a59584cec3 p-lodi1-push-28091.44.570)</value>
+    </metric>
+    <metric>
+        <name>user</name>
+        <value>armcburn</value>
+    </metric>
+    <metric>
+        <name>cwd</name>
+        <value>/home/armcburn/se465-project/pi/partA</value>
+    </metric>
+    <metric>
+        <name>config</name>
+        <value>/usr/local/cov-analysis-linux64-8.7.1/config/coverity_config.xml</value>
+    </metric>
+    <metric>
+        <name>intermediatedir</name>
+        <value>/home/armcburn/coverity-idirs/g47_myproject</value>
+    </metric>
+    <metric>
+        <name>outputdir</name>
+        <value>/home/armcburn/coverity-idirs/g47_myproject/output</value>
+    </metric>
+    <metric>
+        <name>emitdir</name>
+        <value>/home/armcburn/coverity-idirs/g47_myproject/emit</value>
+    </metric>
+    <metric>
+        <name>force</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>cygwin</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>failures</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>successes</name>
+        <value>3</value>
+    </metric>
+    <metric>
+        <name>recoverable-errors</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>cs-webapps-detected</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>cs-webapp-successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>cs-webapp-compilation-secs</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>buildcmd</name>
+        <value>make</value>
+    </metric>
+</metrics>
+</coverity>

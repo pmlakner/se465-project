@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [[ "$#" -ne 3 && "$#" -ne 1 ]]; then
+    echo "Illegal number of parameters"
+    exit 1
+fi
+
+# Output to callgraph.dot
+opt -dot-callgraph $1 > /dev/null 2>&1
+
+if [ -f callgraph.dot ]; then
+    # Pass file content & additional arguments to script
+    shift;
+    cat callgraph.dot | `dirname $0`/out $*
+
+    # Remove dot file
+    rm callgraph.dot
+fi

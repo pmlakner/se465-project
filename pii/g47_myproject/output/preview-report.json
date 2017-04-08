@@ -1,0 +1,180 @@
+{
+  "header" : {
+    "format" : "commit preview report",
+    "version" : 2
+  },
+  "analysisInfo" : {
+    "ownerAssignmentRule" : "default_component_owner",
+    "comparisonSnapshotId" : null,
+    "reportTimestamp" : "2017-04-03T01:13:43.894Z",
+    "user" : "admin",
+    "command" : "/usr/local/cov-analysis-linux64-8.7.1/bin/cov-analyze --dir /home/armcburn/coverity-idirs/g47_myproject --disable-webapp-security --strip-path /home/armcburn/se465-project/pi/partA --all --enable-fb"
+  },
+  "issueInfo" : [ {
+    "cid" : 10164,
+    "mergeKey" : "5046f704ac0d3ca77c0ccc4e0d4c2edf",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-04-03T01:13:43.894Z",
+    "occurrences" : [ {
+      "checker" : "STREAM_FORMAT_STATE",
+      "file" : "/common.cpp",
+      "function" : "_ZlsRSoRK3Bug",
+      "extra" : "out",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 37,
+      "mainEventDescription" : "Changing format state of stream \"out\" for categories floatfield, precision without later restoring it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10165,
+    "mergeKey" : "f4717de53628e00bda2764b786890294",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-04-03T01:13:43.894Z",
+    "occurrences" : [ {
+      "checker" : "TAINTED_SCALAR",
+      "file" : "/callgraph.cpp",
+      "function" : "_ZrsRSiR9CallGraph",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "critical_argument",
+      "mainEventLineNumber" : 144,
+      "mainEventDescription" : "Passing tainted variable \"curFunctionId\" to a tainted sink.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "TAINTED_SCALAR",
+      "file" : "/callgraph.cpp",
+      "function" : "_ZrsRSiR9CallGraph",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 144,
+      "mainEventDescription" : "Passing tainted variable \"curFunctionId\" to a tainted sink.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "TAINTED_SCALAR",
+      "file" : "/callgraph.cpp",
+      "function" : "_ZrsRSiR9CallGraph",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "critical_argument",
+      "mainEventLineNumber" : 145,
+      "mainEventDescription" : "Passing tainted variable \"curFunctionId\" to a tainted sink.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "TAINTED_SCALAR",
+      "file" : "/callgraph.cpp",
+      "function" : "_ZrsRSiR9CallGraph",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 145,
+      "mainEventDescription" : "Passing tainted variable \"curFunctionId\" to a tainted sink.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "TAINTED_SCALAR",
+      "file" : "/callgraph.cpp",
+      "function" : "_ZrsRSiR9CallGraph",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "critical_argument",
+      "mainEventLineNumber" : 164,
+      "mainEventDescription" : "Passing tainted variable \"curFunctionId\" to a tainted sink.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "TAINTED_SCALAR",
+      "file" : "/callgraph.cpp",
+      "function" : "_ZrsRSiR9CallGraph",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 164,
+      "mainEventDescription" : "Passing tainted variable \"curFunctionId\" to a tainted sink.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "TAINTED_SCALAR",
+      "file" : "/callgraph.cpp",
+      "function" : "_ZrsRSiR9CallGraph",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "critical_argument",
+      "mainEventLineNumber" : 144,
+      "mainEventDescription" : "Passing tainted variable \"refFunctionId\" to a tainted sink.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "TAINTED_SCALAR",
+      "file" : "/callgraph.cpp",
+      "function" : "_ZrsRSiR9CallGraph",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 144,
+      "mainEventDescription" : "Passing tainted variable \"refFunctionId\" to a tainted sink.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "TAINTED_SCALAR",
+      "file" : "/callgraph.cpp",
+      "function" : "_ZrsRSiR9CallGraph",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "critical_argument",
+      "mainEventLineNumber" : 145,
+      "mainEventDescription" : "Passing tainted variable \"refFunctionId\" to a tainted sink.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "TAINTED_SCALAR",
+      "file" : "/callgraph.cpp",
+      "function" : "_ZrsRSiR9CallGraph",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 145,
+      "mainEventDescription" : "Passing tainted variable \"refFunctionId\" to a tainted sink.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  } ]
+}

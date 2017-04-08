@@ -1,0 +1,6 @@
+--dir
+/home/armcburn/coverity-idirs/g47_myproject
+--delete-stale-tus
+--return-emit-failures
+--fs-capture-search
+/home/armcburn/se465-project/pi/partA

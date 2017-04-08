@@ -1,0 +1,29 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>STREAM_FORMAT_STATE</checker>
+<type>stream_format_state</type>
+<subtype>not_restored</subtype>
+<file>/home/armcburn/se465-project/pi/partA/common.cpp</file>
+<function>_ZlsRSoRK3Bug</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>format_changed</tag>
+<description>{CovLStrv2{{t{{0} changes the format state of {1} for category {2}.}{{code{fixed}}}{{code{out}}}{floatfield}}}}</description>
+<line>36</line>
+</event>
+<event>
+<tag>format_changed</tag>
+<description>{CovLStrv2{{t{{0} changes the format state of {1} for category {2}.}{{code{setprecision}}}{{code{out}}}{precision}}}}</description>
+<line>36</line>
+</event>
+<event>
+<main>true</main>
+<tag>end_of_path</tag>
+<description>{CovLStrv2{{t{Changing format state of stream {0} for categories {1} without later restoring it.}{{code{out}}}{floatfield, precision}}}}</description>
+<line>37</line>
+</event>
+<extra>out</extra>
+<subcategory>none</subcategory>
+</error>
